@@ -56,10 +56,26 @@ permalink: /people/
 
 <br>
 
-| Who are they | When were they here | Where they went |
-| :------------- |:-------------| :-----------|
-| [Xinyue Wang](https://www.charonwangg.com/) | Graduate Student (2021-2023) | PhD Student, Halıcıoğlu Data Science Institute, UCSD |
-
+<table>
+  <thead>
+    <tr>
+      <th>Who are they</th>
+      <th>When were they here</th>
+      <th>Where they went</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for profile in people_sorted %}
+      {% if profile.position contains 'alumni' %}
+        <tr>
+          <td><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></td>
+          <td>{{ profile.joined }}</td>
+          <td>{{ profile.destination }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
 
 {% endif %}
 {% endfor %}
