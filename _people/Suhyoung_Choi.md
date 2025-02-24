@@ -2,7 +2,7 @@
 name: Suhyoung Choi
 position: alumni
 avatar: Choi_Suh-young.png
-joined: 2023-2025
+joined: 2023
 destination:
 ---
 
