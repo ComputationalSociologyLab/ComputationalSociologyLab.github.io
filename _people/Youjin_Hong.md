@@ -2,7 +2,7 @@
 name: Youjin Hong
 position: alumni
 avatar: Hong You-jin.png
-joined: 2023-2025
+joined: 2023
 destination: Korean Re
 ---
 
