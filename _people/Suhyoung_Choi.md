@@ -1,6 +1,6 @@
 ---
 name: Suhyoung Choi
-position: gradstudent
+position: alumni
 avatar: Choi_Suh-young.png
 joined: 2023
 ---
