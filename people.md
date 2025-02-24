@@ -69,7 +69,7 @@ permalink: /people/
       {% if profile.position contains 'alumni' %}
         <tr>
           <td><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></td>
-          <td>{{ profile.joined }}</td>
+          <td>{{ profile.joined }-{ profile.ended }}</td>
           <td>{{ profile.destination }}</td>
         </tr>
       {% endif %}
