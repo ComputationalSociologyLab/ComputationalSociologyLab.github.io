@@ -2,8 +2,8 @@
 name: Youjin Hong
 position: alumni
 avatar: Hong You-jin.png
-joined: 2023
-destination: Researcher, AI Ethics Lab
+joined: 2023-2025
+destination: Korean Re
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" onerror="this.src='{{site.baseurl}}/images/people/404.jpg';" data-action="zoom">
