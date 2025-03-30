@@ -4,7 +4,7 @@ position: alumni
 avatar: Choi_Suh-young.png
 joined: 2023
 ended: 2025
-destination:
+destination: Reseaech Executive, Kantar Korea
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" onerror="this.src='{{site.baseurl}}/images/people/404.jpg';" data-action="zoom">
