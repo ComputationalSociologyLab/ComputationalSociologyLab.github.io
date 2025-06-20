@@ -62,6 +62,7 @@ permalink: /people/
       <th>Who are they</th>
       <th>When were they here</th>
       <th>Where they went</th>
+      <th>Graduate thesis/dissertation</th>
     </tr>
   </thead>
   <tbody>
@@ -71,6 +72,7 @@ permalink: /people/
           <td><a href="{{ site.baseurl }}{{ profile.url }}">{{ profile.name }}</a></td>
           <td>{{ profile.joined }} ~ {{ profile.ended }}</td>
           <td>{{ profile.destination }}</td>
+          <td>{{ profile.thesis }}</td>
         </tr>
       {% endif %}
     {% endfor %}
