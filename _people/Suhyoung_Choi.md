@@ -5,7 +5,7 @@ avatar: Choi_Suh-young.png
 joined: 2023
 ended: 2025
 destination: Reseaech Executive, Kantar Korea
-thesis: "Choi, S.(2024). *Exploring When and How Much Annotator Diversity is Necessary for Effective Machine Learning Models.* Presented at IC2S2 2024."
+thesis: "Choi, S.(2024). Exploring When and How Much Annotator Diversity is Necessary for Effective Machine Learning Models. Presented at IC2S2 2024."
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" onerror="this.src='{{site.baseurl}}/images/people/404.jpg';" data-action="zoom">
