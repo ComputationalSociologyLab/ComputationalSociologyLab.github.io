@@ -10,16 +10,16 @@ We try to include links for all of our papers. Some of the links open PDFs, othe
 <hr>
 (Working papers)
 
-_Uneven Automation: AI’s Impact on Software Engineering Varies by Task Difficulty and Data Availability_<br>
+_Uneven automation: AI’s impact on software engineering varies by task difficulty and data availability_<br>
 [#Myokyung_Han](https://computationalsociologylab.github.io/people/Myokyung_Han/index.html), Jeewoon Hong, Taegyoon Kim, Jinhyuk Yun, [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html)<br>
 
-_Proactive Detection of Voice Phishing Networks Using Call Log Analysis and Machine Learning_<br>
+_Proactive detection of voice phishing networks using call log analysis and machine learning_<br>
 [#Kyungjong_Kim](https://computationalsociologylab.github.io/people/Kyungjong_Kim/index.html), [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html)
 
-_Greedy Leadership Roles: Why Modern Organizations Struggle to Retain Women Leaders_<br>
+_Greedy leadership roles: why modern organizations struggle to retain women leaders_<br>
 Minyoung Choi, [#Myokyung_Han](https://computationalsociologylab.github.io/people/Myokyung_Han/index.html), [#Suhyoung Choi](https://computationalsociologylab.github.io/people/Suhyoung_Choi/index.html), Eunhee Bae, Dong Ju Kim, Bong Gwan Jun, [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html)
 
-_Regional Differences in the Strength and Cohesion of Social Networks and Childcare Stress Management_<br>
+_Regional differences in the strength and cohesion of social networks and childcare stress management_<br>
 Daeun Kwan, Seulki Choi, [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html)
 
 _What can conceptual networks tell us about scientific progress?_<br>
@@ -28,7 +28,7 @@ _What can conceptual networks tell us about scientific progress?_<br>
 _Generative AI and disparity in willingness to learn_<br>
 Dujin Park, [#Suhyoung Choi](https://computationalsociologylab.github.io/people/Suhyoung_Choi/index.html), [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html), June Jeon<br>
 
-_Peripheralizing Social Science Academia: A Relational Landscape of the Global and Local Social Sciences_<br>
+_Peripheralizing social science academia: a relational landscape of the global and local social sciences_<br>
 June Jeon\*, Byungjun Kim\*, [#Suhyoung Choi](https://computationalsociologylab.github.io/people/Suhyoung_Choi/index.html), Maida Aizaz, [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html) (\* co-first author) <br>
 
 <hr>
@@ -37,7 +37,7 @@ June Jeon\*, Byungjun Kim\*, [#Suhyoung Choi](https://computationalsociologylab.
 _Has higher education become more interdisciplinary? a longitudinal analysis of syllabi using natural language processing_<br>
 [#Youjin Hong](https://computationalsociologylab.github.io/people/Youjin_Hong/index.html), Byungjun Kim, June Jeon, [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html). Humanities and Social Sciences Communications, 2025 [Article](https://www.nature.com/articles/s41599-025-06126-7)<br>
 
-_Whose Palestine Is It? A Topic Modelling Approach to National Framing in Academic Research_<br> [#Maida Aizaz](https://computationalsociologylab.github.io/people/Maida_Aizaz/index.html), Taegyoon Kim, [#Lanu_Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html). Proceedings of the 9th Widening NLP Workshop, 2025 [Article](https://aclanthology.org/2025.winlp-main.7/)<br>
+_Whose Palestine is it? a topic modelling approach to national framing in academic research_<br> [#Maida Aizaz](https://computationalsociologylab.github.io/people/Maida_Aizaz/index.html), Taegyoon Kim, [#Lanu_Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html). Proceedings of the 9th Widening NLP Workshop, 2025 [Article](https://aclanthology.org/2025.winlp-main.7/)<br>
 
 _The ethics of generative AI in social science research: a qualitative approach for institutionally grounded AI research ethics_<br>
 June Jeon, Jaehyuk Park, [#Lanu Kim](https://computationalsociologylab.github.io/people/lanu_kim/index.html). Technology in Society, 2025 [Article](https://doi.org/10.1016/j.techsoc.2025.102836)<br>
