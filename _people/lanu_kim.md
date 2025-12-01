@@ -1,12 +1,12 @@
 ---
 name: Lanu Kim
-position: pi
+position: PI
 avatar: image.jpg
 ---
 
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" onerror="this.src='{{site.baseurl}}/images/people/404.jpg';" data-action="zoom">
 
-- _Professor, KAIST_
+- _Associate professor, KAIST_
 - _Sociology, Data Science. Collaborator. Transdisciplinary optimist._
 
 <i class="fa fa-envelope-o"></i> `lanukim@kaist.ac.kr`
