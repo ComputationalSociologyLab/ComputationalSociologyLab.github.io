@@ -1,7 +1,7 @@
 ---
 name: Jihyang Cheon
 position: gradstudent
-avatar: Cheon_Ji-Hyang.jpg
+avatar: Cheon_JiHyang.jpg
 joined: 2025
 ---
 
