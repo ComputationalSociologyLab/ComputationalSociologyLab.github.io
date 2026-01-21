@@ -3,7 +3,7 @@ name: Jiyun Beak
 position: alumni
 avatar: Beak_Jiyun.jpg
 joined: 2023
-ended: 2025
+ended: 2026
 destination:
 thesis:
 ---
