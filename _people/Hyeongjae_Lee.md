@@ -8,7 +8,7 @@ joined: 2025
 <img width="300" src="{{site.baseurl}}/images/people/{{page.avatar}}" onerror="this.src='{{site.baseurl}}/images/people/404.jpg';" data-action="zoom">
 
 ## About Me
-I have explored how technological change and skill development, grounded in human capital theory, influence the structure and dynamics of labor markets. In my research, I have employed various quantitative methodologies—including natural language processing (NLP), network analysis, machine learning, and statistical modeling—to analyze complex socio-economic interactions
+Hyeongjae seeks to explore how technological change and skill development, grounded in human capital, influence the structure and dynamics of labor markets. In his research, he employs various quantitative methodologies including natural language processing (NLP), network analysis, machine learning, and statistical modeling to analyze complex socio-economic interactions.
 
 ## My interests
 * Career Dynamics
