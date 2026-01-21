@@ -1,6 +1,6 @@
 ---
 title: #MATJIP
-permalink: /category/matjip/
+permalink: /matjip/
 layout: page
 ---
 
