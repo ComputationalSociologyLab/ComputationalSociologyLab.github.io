@@ -26,4 +26,4 @@ The map below shows some of the restaurants, cafés and bars we've posted about 
 
 
 ### Contribution
-* [#Jiyoon Beak]
+* Jiyun Beak
