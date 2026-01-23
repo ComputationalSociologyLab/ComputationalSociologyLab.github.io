@@ -9,7 +9,7 @@ This page curates posts under **Matjip (맛집)** — because let's be honest, e
 
 
 ### Map of featured places
-The map below shows some of the restaurants and cafés we've posted about under Matjip. Each pin marks a place we've actually been to (and documented), complete with our thoughts on the food.
+The map below shows some of the restaurants, cafés and bars we've posted about under Matjip. Each pin marks a place we've actually been to (and documented), complete with our thoughts on the food.
 
 <div class="map-wrapper" style="margin: 2rem 0; text-align: center;">
   <iframe 
