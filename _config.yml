@@ -32,7 +32,7 @@ nav:
 #    href:           "/project"
   - name:           "people"
     href:           "/people"
- - name:           "matjip"
+  - name:           "matjip"
     href:           "/matjip"
 # - name:           "abstracts"
 #   href:           "/abstracts"
