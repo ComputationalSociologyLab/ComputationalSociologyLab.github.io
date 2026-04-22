@@ -1,6 +1,6 @@
 ---
-title: Presentations
-permalink: /presentations/
+title: Presentation
+permalink: /presentation/
 ---
 
 ### Upcoming lab meetings
