@@ -1,3 +1,8 @@
+---
+title: Korean Sociological Association Invited Talk
+description: 
+categories: newblog
+---
 
 <embed src="{{ site.baseurl }}/documents/presentation.pdf" type="application/pdf" width="100%" height="600px">
 
