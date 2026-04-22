@@ -114,16 +114,7 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 
 {% endraw %}
 
-{% assign reference_types = "scientists|students" | split: "|" %}
-
-{% for type in reference_types %}
-
-{% if type == 'scientists' %}
-### **For scientists**
- {% elsif type == 'students' %}
-### **For students, lab members**
-{% endif %}
-
+### **Presentation Materials**
 <div class="content list">
   {% for post in site.posts %}
     {% if post.categories contains type %}
@@ -132,8 +123,6 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
         <a href="{{ site.baseurl }}{{ post.url }}">- {{ post.title }}</a>
       </p>
     </div>
-    {% endif %}
-  {% endfor %}
 </div>
 
 <hr>
