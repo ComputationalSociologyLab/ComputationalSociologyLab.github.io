@@ -9,7 +9,7 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 
 ## Spring 2026
 
-<details>
+<details markdown="1">
 <summary>Spring 2026 Schedule (click)</summary>
 
 | Date  | Name  | Location  | Time    |
@@ -27,7 +27,7 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 
 ## Fall 2025
 
-<details>
+<details markdown="1">
 <summary>Fall 2025 Schedule (click)</summary>
 
 | Date  | Name                       | Location | Time    |
