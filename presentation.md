@@ -10,28 +10,32 @@ On a rotating basis, each member of the lab speaks and teaches about something t
 Anything, really. Relevant and interesting topics, good skills to know, nice Python packages,
 neuroscientific princples, new findings and literature reviews... anything!
 
-### Spring 2026
-```mermaid
----
-config:
-  logLevel: 'debug'
-  theme: 'base'
-  timeline:
-    disableMulticolor: true
----
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <script>
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
+
+<body>
+
+<div class="mermaid">
 timeline
     title spring semester, 2026
         03/05 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
         03/19 : Presenter - MK : location - N4 1412-2 : Time - 13:00 ~
         04/02 : Presenter - ER : location - N4 1412-2 : Time - 13:00 ~
-        04/16 : Presenter -HJ : location - N4 1412-2 : Time - 12:00 ~
+        04/16 : Presenter - HJ : location - N4 1412-2 : Time - 12:00 ~
         04/30 : Presenter - JH : location - N4 1412-2 : Time - 13:00 ~
         05/14 : Party : Time - 11:30 ~
         05/28 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
-        06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~ 
-```
+        06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~
+</div>
 
-
+</body>
+</html>
 ### Fall 2024
 {% raw %}
 | Date       | Name   | Topic |
