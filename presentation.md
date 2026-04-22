@@ -61,4 +61,3 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
     </div>
 </div>
 <hr>
-{% endfor %}
