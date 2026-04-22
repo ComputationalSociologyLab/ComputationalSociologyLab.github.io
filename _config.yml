@@ -28,7 +28,7 @@ nav:
     href:           "/about"
   - name:           "publications"
     href:           "/publication"
-  - name:           "presentation"
+  - name:           "presentations"
     href:           "/presentation"
   - name:           "people"
     href:           "/people"
