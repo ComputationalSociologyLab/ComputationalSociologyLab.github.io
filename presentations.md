@@ -8,6 +8,9 @@ On a rotating basis, each member of the lab speaks and teaches about something t
 Anything, really. Relevant and interesting topics, good skills to know, nice Python packages, CSS trends, new findings and literature reviews... anything!
 
 ### Spring 2026
+<details>
+  <summary>▶ Spring 2026</summary>
+
 {% raw %}
 | Date | Name | Location | Time |
 |------|------|----------|------|
@@ -21,7 +24,13 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 | 06/11 | KJ | N4 1412-2 | 13:00 ~ |
 {% endraw %}
 
+</details>
+
+
 ### Fall 2025
+<details>
+  <summary>▶ Fall 2025</summary>
+
 {% raw %}
 | Date | Name | Location | Time |
 |------|------|----------|------|
@@ -34,7 +43,8 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 | 11/20 | Maida | N4 1334 | 14:00 ~ |
 | 12/04 | JiHyang Chun, EunRang Kwon | N4 1334 | 13:00 ~ |
 {% endraw %}
-<hr>
+
+</details>
 
 ### **Materials**
 <div class="content list">
