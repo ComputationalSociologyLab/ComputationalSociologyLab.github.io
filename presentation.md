@@ -5,35 +5,32 @@ permalink: /presentation/
 
 ### Upcoming lab meetings
 
-Every Friday at 13:30 EST, we get together (mix of virtual and in person) for lab presentations (with food! sometimes).
+Every Thursday, we get together (mix of virtual and in person) for lab presentations (with food! sometimes).
 On a rotating basis, each member of the lab speaks and teaches about something they know or shares their work. 
 Anything, really. Relevant and interesting topics, good skills to know, nice Python packages,
 neuroscientific princples, new findings and literature reviews... anything!
 
-Get on the [listserv for announcements](https://groups.google.com/forum/#!forum/kording-lab-teachings)
-### Spring 2025
-{% raw %}
-| Date       | Name | Topic |
-|------------|------|-------|
-| Jan 20     | Konrad Körding | Evolution for brains and machines |
-| Jan 27     | TBD  | TBD   |
-| Feb 3      | Mialy Rasetarinera | Musings about algorithmic fairness in AI  |
-| Feb 10     | None  | TBD   |
-| Feb 17     | None  | None  |
-| Feb 24     | Melanie Segado  | How to pretrain a model |
-| Mar 3      | Joey Rudoler| Representations in neural networks  |
-| Mar 10     | None  | TBD   |
-| Mar 17     | Ansh Soni  | NeuroAI & Benchmarking   |
-| Mar 24     | Jordan Matelsky  | Intro to Quantum Computing   |
-| Mar 31     | None  | None   |
-| Apr 7      | Joey Rudoler  | C4R testing   |
-| Apr 14     | Ansh Soni  | TBD   |
-| Apr 21     | None  | TBD   |
-| Apr 28     | Felipe Parodi  | TBD   |
-| May 5      | Melanie Segado  | TBD   |
-| May 12     | Joey V.  | Compiling to linear neurons  |
+### Spring 2026
+```mermaid
+---
+config:
+  logLevel: 'debug'
+  theme: 'base'
+  timeline:
+    disableMulticolor: true
+---
+timeline
+    title spring semester, 2026
+        03/05 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
+        03/19 : Presenter - MK : location - N4 1412-2 : Time - 13:00 ~
+        04/02 : Presenter - ER : location - N4 1412-2 : Time - 13:00 ~
+        04/16 : Presenter -HJ : location - N4 1412-2 : Time - 12:00 ~
+        04/30 : Presenter - JH : location - N4 1412-2 : Time - 13:00 ~
+        05/14 : Party : Time - 11:30 ~
+        05/28 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
+        06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~ 
+```
 
-{% endraw %}
 
 ### Fall 2024
 {% raw %}
