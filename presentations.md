@@ -36,7 +36,7 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 {% endraw %}
 <hr>
 
-### **Presentation Materials**
+### **Materials**
 <div class="content list">
   {% for post in site.posts %}
     <div class="list-item">
