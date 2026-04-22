@@ -2,43 +2,30 @@
 title: Presentation
 permalink: /presentation/
 ---
-
 ### Upcoming lab meetings
-
 Every Thursday, we get together (mix of virtual and in person) for lab presentations (with food! sometimes).
 On a rotating basis, each member of the lab speaks and teaches about something they know or shares their work. 
 Anything, really. Relevant and interesting topics, good skills to know, nice Python packages, CSS trends, new findings and literature reviews... anything!
 
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spring Semester 2026</title>
-</head>
-<body>
-  <div id="diagram"></div>
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({
-      startOnLoad: false,
-      theme: 'neutral'
-    });
-    const { svg } = await mermaid.render('timeline-svg', `timeline
-        title Spring Semester, 2026
-            03/05 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
-            03/19 : Presenter - MK : location - N4 1412-2 : Time - 13:00 ~
-            04/02 : Presenter - ER : location - N4 1412-2 : Time - 13:00 ~
-            04/16 : Presenter - HJ : location - N4 1412-2 : Time - 12:00 ~
-            04/30 : Presenter - JH : location - N4 1412-2 : Time - 13:00 ~
-            05/14 : Party : Time - 11:30 ~
-            05/28 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
-            06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~`);
-    document.getElementById('diagram').innerHTML = svg;
-  </script>
-</body>
-</html>
-
+<div id="diagram"></div>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: false,
+    theme: 'neutral'
+  });
+  const { svg } = await mermaid.render('timeline-svg', `timeline
+      title Spring Semester, 2026
+          03/05 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
+          03/19 : Presenter - MK : location - N4 1412-2 : Time - 13:00 ~
+          04/02 : Presenter - ER : location - N4 1412-2 : Time - 13:00 ~
+          04/16 : Presenter - HJ : location - N4 1412-2 : Time - 12:00 ~
+          04/30 : Presenter - JH : location - N4 1412-2 : Time - 13:00 ~
+          05/14 : Party : Time - 11:30 ~
+          05/28 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
+          06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~`);
+  document.getElementById('diagram').innerHTML = svg;
+</script>
 
 ### Spring 2024
 {% raw %}
@@ -61,7 +48,6 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
 | Apr 26 | ... | ... |
 | May 3 | ... | ... |
 | May 10 | Ilenna Jones | 
-
 {% endraw %}
 
 ### **Presentation Materials**
@@ -74,7 +60,5 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
       </p>
     </div>
 </div>
-
 <hr>
 {% endfor %}
-
