@@ -7,14 +7,45 @@ Every Thursday, we get together (mix of virtual and in person) for lab presentat
 On a rotating basis, each member of the lab speaks and teaches about something they know or shares their work. 
 Anything, really. Relevant and interesting topics, good skills to know, nice Python packages, CSS trends, new findings and literature reviews... anything!
 
-<div id="diagram"></div>
+<div id="diagram-spring2026"></div>
+<div id="diagram-fall2025"></div>
 <script type="module">
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
   mermaid.initialize({
     startOnLoad: false,
-    theme: 'neutral'
+    theme: 'base',
+    themeVariables: {
+      cScale0: '#f5f5f5',
+      cScale1: '#e8e8e8',
+      cScale2: '#f5f5f5',
+      cScale3: '#e8e8e8',
+      cScale4: '#f5f5f5',
+      cScale5: '#e8e8e8',
+      cScale6: '#f5f5f5',
+      cScale7: '#e8e8e8',
+      cScaleLabel0: '#1a1a1a',
+      cScaleLabel1: '#1a1a1a',
+      cScaleLabel2: '#1a1a1a',
+      cScaleLabel3: '#1a1a1a',
+      cScaleLabel4: '#1a1a1a',
+      cScaleLabel5: '#1a1a1a',
+      cScaleLabel6: '#1a1a1a',
+      cScaleLabel7: '#1a1a1a',
+      cScalePeer0: '#ffffff',
+      cScalePeer1: '#f9f9f9',
+      cScalePeer2: '#ffffff',
+      cScalePeer3: '#f9f9f9',
+      cScalePeer4: '#ffffff',
+      cScalePeer5: '#f9f9f9',
+      cScalePeer6: '#ffffff',
+      cScalePeer7: '#f9f9f9',
+      titleColor: '#1a1a1a',
+      textColor: '#1a1a1a',
+      lineColor: '#999999',
+    }
   });
-  const { svg } = await mermaid.render('timeline-svg', `timeline
+
+  const spring2026 = await mermaid.render('timeline-spring2026', `timeline
       title Spring Semester, 2026
           03/05 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
           03/19 : Presenter - MK : location - N4 1412-2 : Time - 13:00 ~
@@ -24,30 +55,19 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
           05/14 : Party : Time - 11:30 ~
           05/28 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
           06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~`);
-  document.getElementById('diagram').innerHTML = svg;
-</script>
+  document.getElementById('diagram-spring2026').innerHTML = spring2026.svg;
 
-### Spring 2024
-{% raw %}
-| Date | Name | Topic |
-|------|------|-------|
-| Jan 16 [Tues] | Konrad K | TBD |
-| Jan 26 [Fri] | K-lab retreat | N/A |
-| Feb 2 | Lab business | Discussion |
-| Feb 9 |Joey R. | Conformal Prediction |
-| Feb 16 | Alessandro Lamacchia | Servers! |
-| Feb 23 | Reading club | Episodic Memory |
-| Mar 1 | Lab 1-1s | do 'em |
-| Mar 8 | Lab 1-1s | do 'em |
-| Mar 15 | ... | ... |
-| Mar 22 | Tony | "Modern" Causal Inference |
-| Mar 29 | ... | ... |
-| Apr 5 |Felipe P | sts experiments, tracking |
-| Apr 12 | Joey | How to program a brain |
-| Apr 19 | 
-| Apr 26 | ... | ... |
-| May 3 | ... | ... |
-| May 10 | Ilenna Jones | 
-{% endraw %}
+  const fall2025 = await mermaid.render('timeline-fall2025', `timeline
+      title Fall Semester, 2025
+          9/08 : Presenter - YoungTeak : location - N4 1334 : Time - 14:00 ~
+          9/18 : Presenter - Maida : location - N4 1334 : Time - 13:00 ~
+          10/01 : Canceled
+          10/16 : Presenter - KyungJong Kim : location - N4 1334 : Time - 13:00 ~
+          10/30 : Presenter - HyeongJae Lee : location - N4 1334 : Time - 13:00 ~
+          11/06 : Presenter - Jiyoon Beak : location - N4 1334 : Time - 13:00 ~
+          11/20 : Presenter - Maida : location - N4 1334 : Time - 14:00 ~
+          12/04 : Presenter - JiHyang Chun, EunRang Kwon : location - N4 1334 : Time - 13:00 ~`);
+  document.getElementById('diagram-fall2025').innerHTML = fall2025.svg;
+</script>
 
 <hr>
