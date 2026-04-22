@@ -7,8 +7,7 @@ permalink: /presentation/
 
 Every Thursday, we get together (mix of virtual and in person) for lab presentations (with food! sometimes).
 On a rotating basis, each member of the lab speaks and teaches about something they know or shares their work. 
-Anything, really. Relevant and interesting topics, good skills to know, nice Python packages,
- princples, new findings and literature reviews... anything!
+Anything, really. Relevant and interesting topics, good skills to know, nice Python packages, CSS trends, new findings and literature reviews... anything!
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -16,63 +15,191 @@ Anything, really. Relevant and interesting topics, good skills to know, nice Pyt
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spring Semester 2026</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+ 
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #fafafa;
+      color: #2c2c2a;
+      padding: 2rem 1rem;
+    }
+ 
+    h1 {
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      color: #444441;
+      margin-bottom: 2rem;
+    }
+ 
+    .timeline {
+      position: relative;
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 0.5rem 0 1rem;
+    }
+ 
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 54px;
+      top: 28px;
+      bottom: 28px;
+      width: 1.5px;
+      background: #d3d1c7;
+    }
+ 
+    .event {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+      padding: 10px 0;
+      position: relative;
+    }
+ 
+    .date {
+      min-width: 44px;
+      text-align: right;
+      font-size: 13px;
+      font-weight: 500;
+      color: #888780;
+      padding-top: 10px;
+    }
+ 
+    .dot {
+      position: relative;
+      z-index: 1;
+      width: 10px;
+      height: 10px;
+      min-width: 10px;
+      border-radius: 50%;
+      background: #b4b2a9;
+      margin-top: 12px;
+    }
+ 
+    .event.party .dot {
+      width: 12px;
+      height: 12px;
+      min-width: 12px;
+      margin-top: 11px;
+      background: #888780;
+    }
+ 
+    .card {
+      flex: 1;
+      background: #ffffff;
+      border: 1px solid #e8e6e0;
+      border-radius: 10px;
+      padding: 10px 14px;
+    }
+ 
+    .event.party .card {
+      border-color: #d3d1c7;
+    }
+ 
+    .name {
+      font-size: 14px;
+      font-weight: 500;
+      color: #2c2c2a;
+    }
+ 
+    .meta {
+      font-size: 12px;
+      color: #888780;
+      margin-top: 2px;
+    }
+ 
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: 6px;
+      background: #f1efe8;
+      color: #5f5e5a;
+      margin-top: 4px;
+    }
+  </style>
 </head>
 <body>
-  <div id="diagram"></div>
-  <script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
-    mermaid.initialize({
-      startOnLoad: false,
-      theme: 'base',
-      themeVariables: {
-        cScale0: '#e0e0e0',
-        cScale1: '#d0d0d0',
-        cScale2: '#e0e0e0',
-        cScale3: '#d0d0d0',
-        cScale4: '#e0e0e0',
-        cScale5: '#d0d0d0',
-        cScale6: '#e0e0e0',
-        cScale7: '#d0d0d0',
-        cScaleLabel0: '#333333',
-        cScaleLabel1: '#333333',
-        cScaleLabel2: '#333333',
-        cScaleLabel3: '#333333',
-        cScaleLabel4: '#333333',
-        cScaleLabel5: '#333333',
-        cScaleLabel6: '#333333',
-        cScaleLabel7: '#333333',
-        cScalePeer0: '#f5f5f5',
-        cScalePeer1: '#ebebeb',
-        cScalePeer2: '#f5f5f5',
-        cScalePeer3: '#ebebeb',
-        cScalePeer4: '#f5f5f5',
-        cScalePeer5: '#ebebeb',
-        cScalePeer6: '#f5f5f5',
-        cScalePeer7: '#ebebeb',
-        titleColor: '#333333',
-        textColor: '#333333',
-        sectionBkgColor: '#f5f5f5',
-        altSectionBkgColor: '#ebebeb',
-        lineColor: '#999999',
-      }
-    });
-    const { svg } = await mermaid.render('timeline-svg', `timeline
-        title Spring Semester, 2026
-            03/05 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
-            03/19 : Presenter - MK : location - N4 1412-2 : Time - 13:00 ~
-            04/02 : Presenter - ER : location - N4 1412-2 : Time - 13:00 ~
-            04/16 : Presenter - HJ : location - N4 1412-2 : Time - 12:00 ~
-            04/30 : Presenter - JH : location - N4 1412-2 : Time - 13:00 ~
-            05/14 : Party : Time - 11:30 ~
-            05/28 : Presenter - Maida : location - N4 1412-2 : Time - 13:00 ~
-            06/11 : Presenter - KJ : location - N4 1412-2 : Time - 13:00 ~`);
-    document.getElementById('diagram').innerHTML = svg;
-  </script>
+  <h1>Spring semester, 2026</h1>
+  <div class="timeline">
+    <div class="event">
+      <div class="date">03/05</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">Maida</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">13:00 ~</div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="date">03/19</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">MK</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">13:00 ~</div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="date">04/02</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">ER</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">13:00 ~</div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="date">04/16</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">HJ</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">12:00 ~</div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="date">04/30</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">JH</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">13:00 ~</div>
+      </div>
+    </div>
+    <div class="event party">
+      <div class="date">05/14</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">Party</div>
+        <div class="badge">11:30 ~</div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="date">05/28</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">Maida</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">13:00 ~</div>
+      </div>
+    </div>
+    <div class="event">
+      <div class="date">06/11</div>
+      <div class="dot"></div>
+      <div class="card">
+        <div class="name">KJ</div>
+        <div class="meta">N4 1412-2</div>
+        <div class="badge">13:00 ~</div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
 
-</body>
-</html>
+
 ### Fall 2024
 {% raw %}
 | Date       | Name   | Topic |
