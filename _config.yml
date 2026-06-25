@@ -9,7 +9,7 @@ description:        "Computational Sociology Lab is a research group at the the 
 
 
 # URL
-url:                https://computationalsociologylab.github.io/
+url:                https://catslab.kaist.ac.kr/
 baseurl:            
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
